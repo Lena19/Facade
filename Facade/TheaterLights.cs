@@ -12,7 +12,7 @@ namespace Facade
         void dim(int vol)
         {
             this.light = vol;
-            Console.WriteLine("Light dim");
+            Console.WriteLine("Light dim on " + vol);
         }
     }
 }

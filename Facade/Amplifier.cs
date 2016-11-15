@@ -8,5 +8,21 @@ namespace Facade
 {
     class Amplifier
     {
+        string dvd;
+        int volume;
+        void setDvd(string dvd)
+        {
+            this.dvd = dvd;
+            Console.WriteLine("Dvd is set. " + dvd);
+        }
+        void setSurroundSound()
+        {
+            Console.WriteLine("Surround sound is set");
+        }
+        void setVolume(int vol)
+        {
+            volume = vol;
+            Console.WriteLine("Volume is set on " + volume);
+        }
     }
 }
