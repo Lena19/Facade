@@ -8,5 +8,11 @@ namespace Facade
 {
     class TheaterLights
     {
+        int light;
+        void dim(int vol)
+        {
+            this.light = vol;
+            Console.WriteLine("Light dim");
+        }
     }
 }

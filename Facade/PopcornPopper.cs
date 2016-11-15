@@ -8,5 +8,13 @@ namespace Facade
 {
     class PopcornPopper
     {
+        void on()
+        {
+            Console.WriteLine("Popper is on");
+        }
+        void pop()
+        {
+            Console.WriteLine("Popper is popping");
+        }
     }
 }

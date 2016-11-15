@@ -8,5 +8,13 @@ namespace Facade
 {
     class Projector
     {
+        void on()
+        {
+            Console.WriteLine("Projector is on");
+        }
+        void wideScreenMode()
+        {
+            Console.WriteLine("Widescreen mode is on");
+        }
     }
 }

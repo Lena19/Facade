@@ -8,5 +8,9 @@ namespace Facade
 {
     class Screen
     {
+        void down()
+        {
+            Console.WriteLine("Screen is down");
+        }
     }
 }
