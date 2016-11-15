@@ -16,5 +16,17 @@ namespace Facade
         {
             Console.WriteLine("DVD is playing " + movie);
         }
+        void stop()
+        {
+            Console.WriteLine("Dvd is stopped");
+        }
+        void eject()
+        {
+            Console.WriteLine("Dvd is ejected");
+        }
+        void off()
+        {
+            Console.WriteLine("Dvd is off");
+        }
     }
 }

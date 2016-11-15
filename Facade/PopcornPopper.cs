@@ -16,5 +16,9 @@ namespace Facade
         {
             Console.WriteLine("Popper is popping");
         }
+        void off()
+        {
+            Console.WriteLine("Popper is off");
+        }
     }
 }

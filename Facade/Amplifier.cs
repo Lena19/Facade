@@ -24,5 +24,9 @@ namespace Facade
             volume = vol;
             Console.WriteLine("Volume is set on " + volume);
         }
+        void off()
+        {
+            Console.WriteLine("Amp is off");
+        }
     }
 }

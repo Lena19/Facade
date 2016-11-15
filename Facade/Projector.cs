@@ -16,5 +16,9 @@ namespace Facade
         {
             Console.WriteLine("Widescreen mode is on");
         }
+        void off()
+        {
+            Console.WriteLine("Projector is off");
+        }
     }
 }

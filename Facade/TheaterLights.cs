@@ -14,5 +14,9 @@ namespace Facade
             this.light = vol;
             Console.WriteLine("Light dim on " + vol);
         }
+        void on()
+        {
+            Console.WriteLine("Light is on");
+        }
     }
 }

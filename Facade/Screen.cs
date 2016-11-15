@@ -12,5 +12,9 @@ namespace Facade
         {
             Console.WriteLine("Screen is down");
         }
+        void up()
+        {
+            Console.WriteLine("Screen is up");
+        }
     }
 }
