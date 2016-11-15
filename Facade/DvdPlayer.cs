@@ -8,23 +8,23 @@ namespace Facade
 {
     class DvdPlayer
     {
-        void on()
+        public void on()
         {
             Console.WriteLine("DVD is on");
         }
-        void play(string movie)
+        public void play(string movie)
         {
             Console.WriteLine("DVD is playing " + movie);
         }
-        void stop()
+        public void stop()
         {
             Console.WriteLine("Dvd is stopped");
         }
-        void eject()
+        public void eject()
         {
             Console.WriteLine("Dvd is ejected");
         }
-        void off()
+        public void off()
         {
             Console.WriteLine("Dvd is off");
         }

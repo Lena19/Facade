@@ -8,11 +8,11 @@ namespace Facade
 {
     class Screen
     {
-        void down()
+        public void down()
         {
             Console.WriteLine("Screen is down");
         }
-        void up()
+        public void up()
         {
             Console.WriteLine("Screen is up");
         }

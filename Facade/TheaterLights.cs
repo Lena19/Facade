@@ -9,12 +9,12 @@ namespace Facade
     class TheaterLights
     {
         int light;
-        void dim(int vol)
+        public void dim(int vol)
         {
             this.light = vol;
             Console.WriteLine("Light dim on " + vol);
         }
-        void on()
+        public void on()
         {
             Console.WriteLine("Light is on");
         }

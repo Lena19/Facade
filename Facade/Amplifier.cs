@@ -10,21 +10,25 @@ namespace Facade
     {
         string dvd;
         int volume;
-        void setDvd(string dvd)
+        public void on()
+        {
+            Console.WriteLine("Amp is on");
+        }
+        public void setDvd(string dvd)
         {
             this.dvd = dvd;
             Console.WriteLine("Dvd is set. " + dvd);
         }
-        void setSurroundSound()
+        public void setSurroundSound()
         {
             Console.WriteLine("Surround sound is set");
         }
-        void setVolume(int vol)
+        public void setVolume(int vol)
         {
             volume = vol;
             Console.WriteLine("Volume is set on " + volume);
         }
-        void off()
+        public void off()
         {
             Console.WriteLine("Amp is off");
         }
